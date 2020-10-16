@@ -1,7 +1,8 @@
-def unique_names(names1, names2);
+def unique_names(names1, names2):
 names1_set = set(names1)
 names2_set = set(names2)
-return list(names1_set.union(names2_set)
+ return list(names1_set.union(names2_set)
+            
 names1 = ['Ava', 'Emma' , 'Olivia']
 names2 = ['Olivia', 'Sophia' , 'Emma']
 print(unique_names(names1, names2))
