@@ -37,5 +37,11 @@ if choice =='4':
 number = 35
 if number > 30:
  print("it is greater than")
-print("it is less than")
+ print("it is less than")
+elif number > 20:
+    print ("its equal")
+else:
+ print ("its normal")
 print ("Done")
+
+
