@@ -33,3 +33,9 @@ if choice =='3':
     print(f'{num1} * {num2} = {mul(num1, num2)}')
 if choice =='4':
     print(f'{num1} / {num2} = {div(num1, num2)}')
+
+number = 35
+if number > 30:
+ print("it is greater than")
+print("it is less than")
+print ("Done")
